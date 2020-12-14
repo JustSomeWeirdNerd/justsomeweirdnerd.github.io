@@ -20,32 +20,36 @@ body {
   font-size: 30px;
 }
 
-  
-  /* Page Content */
-.content {padding:20px;}
-</style>
-</head>
-<body>
+.container {
+  padding: 20px 40px 40px;
+  max-width: 600px;
+  &__image {
+    width: 200px;
+    margin: 30px 30px 30px 0;
+    float: left;
+  }
+  &__text {
+    display: inline;
+  }
+}
 
+  
   <div class="header">
   <h1>Just Some Weird Nerd's About Me</h1>
 </div>
   
   
- <div class="content">
-  <img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Kat_Icon.png" alt="Icon" style="width:221px;height:300px;" />
   
-  <h1>Hello! I am Kat!</h1>
-    
-  <p>I am a huge big nerd who has paid a lot of money for multiple pieces of paper that tell prospective employers that I know a lot about DNA. I like other topics too, but I do not have any pieces of paper that profess my mastery over them.</p>
-  <p>I started this blog because I love reading and writing about science. I am constantly in awe of the simultaneous breathtakingness and absolute buffoonery of the scientific process. Scientists are the weirdest, silliest people of all time, and I think it's absolutely ridiculous that all the relatable, humanizing, hilariousness of our daily lives gets stripped away in the publication process. My aim is to communicate science the way I see it from the inside looking out: exasperating, bizarre, hysterical, and abosolutely, incredibly beautiful.</p>
-    
-</div>
-    
+  <div class="container">
+  <img class="container__image" src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Kat_Icon.png"/>
+  <div class="container__text">
+    <h2>Hello! I am Kat!</h2>
     <p>I am a huge big nerd who has paid a lot of money for multiple pieces of paper that tell prospective employers that I know a lot about DNA. I like other topics too, but I do not have any pieces of paper that profess my mastery over them.</p>
-  <p>I started this blog because I love reading and writing about science. I am constantly in awe of the simultaneous breathtakingness and absolute buffoonery of the scientific process. Scientists are the weirdest, silliest people of all time, and I think it's absolutely ridiculous that all the relatable, humanizing, hilariousness of our daily lives gets stripped away in the publication process. My aim is to communicate science the way I see it from the inside looking out: exasperating, bizarre, hysterical, and abosolutely, incredibly beautiful.</p>
-    
+    <p>I started this blog because I love reading and writing about science. I am constantly in awe of the simultaneous breathtakingness and absolute buffoonery of the scientific process. Scientists are the weirdest, silliest people of all time, and I think it's absolutely ridiculous that all the relatable, humanizing, hilariousness of our daily lives gets stripped away in the publication process. My aim is to communicate science the way I see it from the inside looking out: exasperating, bizarre, hysterical, and abosolutely, incredibly beautiful.</p>
+  
+  </div>
 </div>
+  
   
 </body>
 </html>
