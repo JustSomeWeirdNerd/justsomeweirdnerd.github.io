@@ -32,10 +32,9 @@ body {
 </div>
 
   <div class="content">
-    <p>When you think about the figures in a scientific paper, you probably think of dreary graphs or tissue sections, maybe and anatomical diagram or two. For the most part, scientific publishing aims to be as efficient as possible. It refuses to accept figures that serve no important explanatory purpose, and strives to be elegant and streamlined. For the most part. But every now and then... a complete and utter meme slips through the cracks.</p>
-    <p>Today's Magnificent Figure comes from a 2013 paper published in the Journal of the Royal Society Interface by researchers from Tsinghua University in Beijing. It illustrates how a machine, called the Spraytec System, uses lasers to measure the volume and number of liquid droplets in the sneeze or cough of a human test subject. The figure in question is below.</p>
     <img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Han_et_al_2013_figure_1.jpg" alt="Han et al 2013">
-    p>Yes. For some reason, simply writing, "you sneeze into the laser and it measures the sneeze" would suffice neither for Han et al, 2013, nor for the three other career scientists who peer reviewed this masterpiece of a figure. A+ work to all parties involved. </p>
+    <p>Today's Magnificent Figure comes from a 2013 paper published in the Journal of the Royal Society Interface by researchers from Tsinghua University in Beijing</p>
+    <p>Yes. For some reason, simply writing, "you sneeze into the laser and it measures the sneeze" would suffice neither for Han et al, 2013, nor for the three other career scientists who peer reviewed this masterpiece of a figure. A+ work to all parties involved. </p>
 </div>
   
 </body>
