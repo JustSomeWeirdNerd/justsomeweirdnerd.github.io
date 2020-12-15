@@ -80,7 +80,7 @@ label {
   
   <div class="cent_content">
   <p>For your use, I've made a simple web tool that can help anyone identify the quality of a piece of non-peer reviewed scientific writing.</p>
-  <p><strong>Step 1:</strong> Before reading the article, scan it for immediate red flags. If you see EITHER at least one reference to a publication in a peer-reviewed journal OR at least one direct quote from a scientist (the scientist must be listed with their full credentials and their current place of employment so readers can find information about them an judge how credible they seem), DO NOT READ THE ARTICLE. Just don't. The information is wrong. Don't let it into you brain.</p>
+  <p><strong>Step 1:</strong> Before reading the article, scan it for immediate red flags. If you see neither at least one reference to a publication in a peer-reviewed journal NOR at least one direct quote from a scientist (the scientist must be listed with their full credentials and their current place of employment so readers can find information about them an judge how credible they seem), DO NOT READ THE ARTICLE. Just don't. The information is wrong. Don't let it into you brain.</p>
   <p><strong>Step 2:</strong> If the article has passed the cursory exam for validity, proceed with caution, and fill out the Sci Comms Quality Calculator© (a Just Some Weird Nerd exclusive production):</p>
 </div>
  
@@ -91,7 +91,7 @@ label {
   <div class="cent_content">
   <p>Confused by this? Just completely ignore the bottom half (unless you're interested in PHP coding). Answer the questions in the drop down menu and click submit, you should get a numerical output. That output can be checked against this table as an indicator or quality:</p>
 
-    <table style="width:50%">
+    <table style="width:50%" class="center">
   <tr>
     <th>Calculator Score</th>
     <th>Quality</th>
@@ -116,8 +116,18 @@ label {
   
  </div> 
  
+  <div class="cent_content">
+  <h2>If you are curious (as you should be) about how and why this calculator works, see below:</h2>
+ </div>
+    
+  <div class="content">
+  <p>This calculator takes different aspects of scientific writing and assigns them a numerical value. If the article in question is in good form, it will have many points added and few points taken away. If it is in poor form, the result will be the inverse. These are the parameters:</p>
+ </div>
+  <p><strong>Source Reliability:</strong> Articles get points for the more peer-reviewed articles they cite. If they cite none at all, points are removed. Some articles that appear peer reviewed are not actually peer reviewed; these are called predatory journals. The second question asks you to check if the "peer reviewed" citations are actually peer-reviewed by searching the journal name in this list: https://predatoryjournals.com/journals/. Predatory journals do not conduct peer review. They try to pass off fake science as real science exclusively to make a profit. Interviews with scientists are also reliable sources. The more scientists willing to speak on a topic, the more universally accepted it's likely to be. In addition, articles that include dissenting opinions from scientists are showing you science how it really is, a discussion, rather than trying to prove a point. Dissenting opinions make scientific articles more reliable.</p>
   
+  <p><strong>Author Scientific Literacy:</strong> Authors with a scientific background are expected to understand science and how to communicate it better than writers without them. Articles written by scientific authors get a small addition of points.</p>
   
+  <p><strong>Scientific Language:</strong> Take note of the language in the writing. Does it speak in absolutes and rely on anecdotes and feelings? Science is based on probabilities and research. Anecdotes are not science, and can lead to bias. A good science comunicator will never include them. So too, a scientist will never use certainty when they speak. We are only ever "very certain" that a scientific principle is true because it's impossible to prove a negative. Good scientific communicators should use this type of language too, so points will be removed from articles that do not write this way.</p>
   
 </body>
 </html>
