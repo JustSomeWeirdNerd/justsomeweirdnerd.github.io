@@ -39,10 +39,18 @@ body {
     <h1>YOU CANNOT CONTACT THE VOID.</h1>
     <p>...until I figure out how to add a contact form.</p>
     
-    <form action="https://formspree.io/kathryn.lande@mail.mcgill.ca">
-    <input type="text" name="name">
-    <input type="email" name="_replyto">
-    <input type="submit" value="Send">
+    <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action=""http://formspree.io/kathryn.lande@mail.mcgill.ca"" method="post">
+    <fieldset id="fs-frm-inputs">
+      <label for="full-name">Full Name</label>
+      <input type="text" name="name" id="full-name" placeholder="Toph Beifong" required="">
+      <label for="email-address">Email Address</label>
+      <input type="email" name="_replyto" id="email-address" placeholder="email@email.com" required="">
+      <label for="message">Message</label>
+      <textarea rows="5" name="message" id="message" placeholder="U sukkk (haha but really pls don't send me hate mail)" required=""></textarea>
+      <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
+    </fieldset>
+    <input type="submit" value="Submit">
+  </form>
 </form>
     
 </div>
