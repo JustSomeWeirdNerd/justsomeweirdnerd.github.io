@@ -1,0 +1,49 @@
+#Need to add an outgroup to each step of the pipeline
+#Select like 20 random individuals for Ann & Arg outgroup samples
+#Add outgroup to the VCF_to_gene_fasta2.sh file
+#Add outgroup to DnDs_against_perennials_NEW.py
+Inv	Species	Non_Inv_Outgroup
+Ann01_01	Ann	Arg
+Ann05_01	Ann	Arg
+Ann11_01	Ann	Arg
+Ann13_01	Ann	Arg
+Ann13_02	Ann	Arg
+Ann14_01	Ann	Arg
+Ann14_02	Ann	Arg
+Ann15_01	Ann	Arg
+Ann16_01	Ann	Arg
+Ann16_02	Ann	Arg
+Ann17_01	Ann	Arg
+Arg03_01	Arg	Ann
+Arg03_02	Arg	Ann
+Arg06_01	Arg	Ann
+Arg06_02	Arg	Ann
+Arg10_01	Arg	Ann
+Arg16_01	Arg	Ann
+Pet01_01	Petfal	Arg
+Pet05_01	Petfal	Arg
+Pet06_01	Petfal	Ann
+Pet07_01	Petfal	Ann
+Pet08_01	Petfal	Ann
+Pet09_01	Petfal	Ann
+Pet10_01	Petfal	Ann
+Pet11_01	Petfal	Arg
+Pet14_01	Petfal	Arg
+Pet16_01	Petfal	Arg
+Pet16_02	Petfal	Arg
+Pet17_01	Petfal	Arg
+Pet17_03	Petfal	Arg
+Pet05_01	Petpet	Arg
+Pet06_02	Petpet	Ann
+Pet06_03	Petpet	Ann
+Pet07_01	Petpet	Ann
+Pet08_01	Petpet	Ann
+Pet09_01	Petpet	Ann
+Pet11_01	Petpet	Arg
+Pet12_01	Petpet	Arg
+Pet13_01	Petpet	Arg
+Pet14_02	Petpet	Arg
+Pet16_01	Petpet	Arg
+Pet17_01	Petpet	Arg
+Pet17_02	Petpet	Arg
+Pet17_04	Petpet	Arg
