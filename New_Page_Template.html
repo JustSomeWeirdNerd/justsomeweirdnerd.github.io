@@ -11,13 +11,14 @@ body {
   font-family: Helvetica;
   margin: 0;
   background-color: #0b1a29;
+  background-image: url("https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/Other/small_stars_only.png");
 }
 
 /* Header/Logo Title */
 .header {
   padding: 60px;
   text-align: center;
-  background: #15314d;
+  background-image: radial-gradient(circle, rgba(26,63,99,1) 31%, rgba(11,26,41,1) 100%) ;
   color: white;
   font-size: 30px;
   margin-left: -15%;
@@ -80,6 +81,24 @@ a.bordered:hover img {
    border: solid 2px #33d6ff;
 }
 
+
+a:link, a:visited {
+  background-color: #15314d;
+  color: white;
+  font-size: 28px;
+  padding: 1% 2%;
+  text-align: center;
+  text-decoration: none;
+  border-radius: 20px;
+  margin: 3%;
+  display: inline-block;
+  border: 4px solid #0b1a29;
+}
+
+a:hover, a:active {
+  background-color: #3e7bb8;
+
+  
 /* Dashed line */
 /* <hr class="dashed"> */
 hr.dashed {
@@ -97,8 +116,11 @@ hr.dashed {
   <div class="content_box_narrow">
     <div class="header">
     <h1>Just Some Weird Nerd's Science Communication Toolkit</h1>
-    <a href="/index.html"><img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/Icons_and_Buttons/home_button.png" alt="Home" style="width:150px;height:150px;"></a>
-    <a href="/BACK.html"><img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/Icons_and_Buttons/back_button.png" alt="Home" style="width:150px;height:150px;"></a>
+    <a href="/About.html" target="about">About</a>
+    <a href="/Contact.html" target="contact">Contact</a>
+    <a href="/Blog.html" target="blog">Blog</a>
+    <a href="/Tools.html" target="tools">Tools</a>
+    <a href="/index.html" target="home">Home</a>  
   </div>
 
     <div class="content_box">
