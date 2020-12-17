@@ -20,12 +20,24 @@ body {
   background: #15314d;
   color: white;
   font-size: 30px;
+  margin-left: -100%;
+  margin-right: -100%;
 }
 
 .content_box{
   background: white;
+  margin-left: 0%;
+  margin-right: 0%;
+  margin-bottom: 0%;}
+
+.content_box_narrow{
+  background: white;
+  height: 100%;
   margin-left: 10%;
-  margin-right: 10%;}
+  margin-right: 10%;
+  margin-bottom: 0%;
+  position: absolute;
+  bottom: 0;}
   
 /* Page Content */
 .content {
@@ -42,6 +54,7 @@ body {
   margin-left: 10%;
   margin-right: 10%
  }
+ 
  
  table, tr, td {
   border: 1px solid black;
@@ -62,20 +75,17 @@ label {
     margin-bottom: 2px;
 } 
 
-  
-
-  
-  
 </style>
 </head>
 <body>
   
+  <div class="content_box_narrow">
   <div class="header">
   <h1>Just Some Weird Nerd's Science Communication Toolkit</h1>
-  <a href="index.html"><img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/home_button.png" alt="Home" style="width:150px;height:150px;"></a>
-  <a href="Contact.html"><img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/contact_button.png" alt="Contact" style="width:150px;height:150px;"></a>
-  <a href="Blog.html"><img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/blog_button.png" alt="Blog" style="width:150px;height:150px;"></a>
-  <a href="About.html"><img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/about_button.png" alt="About" style="width:150px;height:150px;"></a>
+  <a href="index.html"><img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/Icons_and_Buttons/home_button.png" alt="Home" style="width:150px;height:150px;"></a>
+  <a href="Contact.html"><img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/Icons_and_Buttons/contact_button.png" alt="Contact" style="width:150px;height:150px;"></a>
+  <a href="Blog.html"><img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/Icons_and_Buttons/blog_button.png" alt="Blog" style="width:150px;height:150px;"></a>
+  <a href="About.html"><img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/Icons_and_Buttons/about_button.png" alt="About" style="width:150px;height:150px;"></a>
     
 </div>
 
@@ -107,7 +117,7 @@ label {
   
     <div class="cent_content">
     <p>Confused by this? Simply answer the questions in the drop down menu above and click submit, you should get a numerical output which can be checked against the table below for a quality score. 
-    If you do not see the drop-down menu, <a href="Calc_Troubleshooting.html">see the troubleshooting guide here.</a>.</p>
+    If you do not see the drop-down menu, <a href="Tools_Pages/Calc_Troubleshooting.html">see the troubleshooting guide here.</a>.</p>
 
       <table style="width:50%" class="center">
     <tr>
@@ -144,10 +154,11 @@ label {
     
     <div class="content">
     <p>This calculator takes different aspects of scientific writing and assigns them a numerical value. If the article in question is in good form, it will have many points added and few points taken away. If it is in poor form, the result will be the inverse. These are the parameters:</p>
-    <p><strong>Source Reliability:</strong> Articles get points for the more peer-reviewed articles they cite. If they cite none at all, points are removed. Some articles that appear peer reviewed are not actually peer reviewed; these are called predatory journals. The second question asks you to check if the "peer reviewed" citations are actually peer-reviewed by searching the journal name <a href="https://predatoryjournals.com/journals/">this list</a>. <a href="Journal_Demo.html">See how to find the journal an article was published in here.</a> Predatory journals do not conduct peer review. They try to pass off fake science as real science exclusively to make a profit. Interviews with scientists are also reliable sources. The more scientists willing to speak on a topic, the more universally accepted it's likely to be. In addition, articles that include dissenting opinions from scientists are showing you science how it really is, a discussion, rather than trying to prove a point. Dissenting opinions make scientific articles more reliable.</p>
+    <p><strong>Source Reliability:</strong> Articles get points for the more peer-reviewed articles they cite. If they cite none at all, points are removed. Some articles that appear peer reviewed are not actually peer reviewed; these are called predatory journals. The second question asks you to check if the "peer reviewed" citations are actually peer-reviewed by searching the journal name <a href="https://predatoryjournals.com/journals/">this list</a>. <a href="Tools_Pages/Journal_Demo.html">See how to find the journal an article was published in here.</a> Predatory journals do not conduct peer review. They try to pass off fake science as real science exclusively to make a profit. Interviews with scientists are also reliable sources. The more scientists willing to speak on a topic, the more universally accepted it's likely to be. In addition, articles that include dissenting opinions from scientists are showing you science how it really is, a discussion, rather than trying to prove a point. Dissenting opinions make scientific articles more reliable.</p>
     <p><strong>Author Scientific Literacy:</strong> Authors with a scientific background are expected to understand science and how to communicate it better than writers without them. Articles written by scientific authors get a small addition of points.</p>
     <p><strong>Scientific Language:</strong> Take note of the language in the writing. Does it speak in absolutes and rely on anecdotes and feelings? Science is based on probabilities and research. Anecdotes are not science, and can lead to bias. A good science comunicator will never include them. So too, a scientist will never use certainty when they speak. We are only ever "very certain" that a scientific principle is true because it's impossible to prove a negative. Good scientific communicators should use this type of language too, so points will be removed from articles that do not write this way.</p>
   </div>  
+</div> 
 </div> 
 </body>
 </html>
