@@ -53,7 +53,9 @@ label {
     margin-top: 20px;
     margin-bottom: 2px;
 } 
-  
+
+/* <div class="clear"></div> */
+.clear { clear:both; }
 
 </style>
 </head>
@@ -70,23 +72,23 @@ label {
 
   <div class="content_box" style="min-height: 100%">
   
-  <div class="content">
-  <img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/Icons_and_Buttons/Kat_Icon_with_mail.png" width="269" height="355" alt="mail_icon" style="float: right; margin-right: 40px;  margin-left: 10px; margin-bottom: 10px"/>
-  <form action="https://formspree.io/f/maylpvbe" method="POST">
+    <div class="content">
+    <img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/Icons_and_Buttons/Kat_Icon_with_mail.png" width="269" height="355" alt="mail_icon" style="float: right; margin-right: 40px;  margin-left: 10px; margin-bottom: 10px"/>
+    <form action="https://formspree.io/f/maylpvbe" method="POST">
   
-  <label for="full-name">Thine Name:</label>
-  <input type="text" name="name" id="full-name" placeholder="What's your name?" required="">
-  <label for="full-name">Thine Email:</label>
-  <input type="text" name="_replyto" id="email" placeholder="What's your email?" required="">
-  <label for="message">Thine Message:</label>
-  <textarea rows="10" cols="40" name="message" id="message" placeholder="Tell me something!"></textarea>
+    <label for="full-name">Thine Name:</label>
+    <input type="text" name="name" id="full-name" placeholder="What's your name?" required="">
+    <label for="full-name">Thine Email:</label>
+    <input type="text" name="_replyto" id="email" placeholder="What's your email?" required="">
+    <label for="message">Thine Message:</label>
+    <textarea rows="10" cols="40" name="message" id="message" placeholder="Tell me something!"></textarea>
 
   
-  <!-- your other form fields go here -->
-  <button type="submit">Send</button>
-</form>
-    
-</div>
+    <!-- your other form fields go here -->
+    <button type="submit">Send</button>
+  </form> 
+  <div class="clear"></div>
+  </div>
 </div>
   
 </body>
