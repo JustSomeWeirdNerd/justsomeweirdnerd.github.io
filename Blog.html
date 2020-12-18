@@ -112,6 +112,29 @@ hr.dashed {
   border-top: 3px dashed #bbb;
 }
 
+.tooltip {
+  position: relative;
+  display: inline-block;
+  border-bottom: 1px dotted black;
+}
+
+.tooltip .tooltiptext {
+  visibility: hidden;
+  width: 80%;
+  background-color: black;
+  color: #fff;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px 0;
+
+  /* Position the tooltip */
+  position: absolute;
+  z-index: 1;
+}   
+      
+.tooltip:hover .tooltiptext {
+  visibility: visible;
+}     
 /* Header/Logo Title */
   
 .sub_header {
@@ -141,7 +164,10 @@ a:hover, a:active {
 </div>
   
   <div class="sub_header">
-  <a href="/Blog_pages/Magnificent_Figs_Main.html">Magnificent Figures</a> 
+    <div class="tooltip">Hover over me
+    <span class="tooltiptext">a gallery of peer-reviewed shitposts from around the world</span>
+      <a href="/Blog_pages/Magnificent_Figs_Main.html">Magnificent Figures</a>       
+</div>    
   <a href="/Blog_pages/Weird.html">Weird Studies</a> 
   <a href="/Blog_pages/Ask_Sci.html">Ask a Science Girl™</a>
 </div>
@@ -153,14 +179,14 @@ a:hover, a:active {
 </div>
    
   <div class="content">
-  <p>Scientific publications might be the last place you'd ever expect to find a meme... but believe it or not, it does happen. Sneaky comedic nerds like me hide catasrophic masterpieces in their journal articles all the time. Click here for an entire gallery of peer-reviewed shitposts from around the world. Behold the redundancy, the clipart, the MS paint-fueled ridiculousness of bored scientists!</p>
+  <p>.</p>
   <div class="clear"></div>
 </div>
   
   <hr class="dashed">
   
   <div class="content">
-  <p>Scientists are pretty weird. If you put 10 scientists in a room with a million dollars worth of grant money, who knows what you're gonna get. This section is a celebration of the unbridled ridiculousness of human creativity.</p>
+  <p>.</p>
   <div class="clear"></div>
 </div>
   
