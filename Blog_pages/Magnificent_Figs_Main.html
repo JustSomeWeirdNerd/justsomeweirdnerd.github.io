@@ -39,19 +39,6 @@ body {
   text-align: center;
 }
   
-.header {
-  padding: 60px;
-  /*width: 100%;*/
-  background-image: radial-gradient(circle, rgba(26,63,99,1) 31%, rgba(11,26,41,1) 100%) ;
-  color: white;
-  font-size: 150%;
-  margin-left: -14%;
-  /* -15 right = not enough */
-  /* 0% right = not enough */
-  margin-right: -14%;
-  text-align: center;
-}
-  
 
 .content_box{
   background: white;
@@ -99,7 +86,7 @@ body {
   margin-right: 10%
  }
  
- .header > a:link, a:visited {
+ a.header:link, a.header:visited {
   background-color: #15314d !important;
   color: white;
   font-size: 125%;
@@ -112,18 +99,14 @@ body {
   border: 4px solid #0b1a29;
 }
 
-.header > a:hover, a:active {
+  a.header:hover, a.header:active {
   background-color: #3e7bb8 !important;}    
   
-  
-.content > a:hover{background-color: white;
-   border: 4px solid #8ff4ff !important;
+  a.content:hover, a.content:active{background-color: white;
+  border: 4px solid #8ff4ff !important;
   }
   
-.content > a:link, a:visited{border-radius: 0px !important;
-  margin: 0% !important;
-  background-color: white;
-  padding: 0% 0% !important;
+  a.content:link, a.content:visited{
   display: inline-block !important;
   border: 2px solid black !important;}
 
