@@ -7,6 +7,12 @@
 <link rel="shortcut icon" type="image/x-icon" href="/Images/favicon.ico">
 <style>
 /* Style the body */
+html {
+      width: 100vw;
+      margin: 0;
+      padding: 0;
+    }
+  
 body {
   font-family: Helvetica;
   margin: 0;
@@ -21,14 +27,17 @@ body {
 /* Header/Logo Title */
 .header {
   padding: 60px;
-  width: 100vw;
-  text-align: center;
+  /*width: 100%;*/
   background-image: radial-gradient(circle, rgba(26,63,99,1) 31%, rgba(11,26,41,1) 100%) ;
   color: white;
   font-size: 30px;
-  margin-left: -15%;
-  margin-right: -15%;
+  margin-left: -14%;
+  /* -15 right = not enough */
+  /* 0% right = not enough */
+  margin-right: -14%;
+  text-align: center;
 }
+  
 
 .content_box{
   background: white;
