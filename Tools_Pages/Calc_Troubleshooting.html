@@ -25,22 +25,29 @@ body {
 }
   
 /* Header/Logo Title */
+/* Header/Logo Title */
 .header {
   padding: 60px;
   /*width: 100%;*/
   background-image: radial-gradient(circle, rgba(26,63,99,1) 31%, rgba(11,26,41,1) 100%) ;
   color: white;
-  font-size: 30px;
+  font-size: 150%;
   margin-left: -14%;
   /* -15 right = not enough */
   /* 0% right = not enough */
   margin-right: -14%;
   text-align: center;
 }
-  
+
+ .buffer{
+   padding:20px
+   color:white;
+   font-size: 100%;}
 
 .content_box{
   background: white;
+  font-family: Garamond !important;
+  font-size: 100%;
   width: 80vw;
   margin-left: 0%;
   margin-right: 0%;
@@ -56,31 +63,39 @@ body {
   position: absolute;
   bottom: 0;}
   
-  
 /* Page Content */
 .content {
-  padding:5px;
-  font-size: 14px;
+  padding:0px;
+  font-family: Garamond !important;
+  font-size: 100%;
   margin-left: 2%;
   margin-right: 2%;
-  margin-bottom: 0%;
+  margin-top: 0%;
+  margin-bottom: 2%;
  }
  
  .cent_content {
-  padding:5px;
-  font-size: 14px;
+  padding:0px;
+  font-family: Garamond !important;
+  font-size: 100%;
   text-align: center;
   margin-left: 10%;
   margin-right: 10%
  }
-hr.dashed {
-  border-top: 3px dashed #bbb;
-}
+ 
+ .cent_content_header {
+  padding:0px;
+  font-family: Helvetica !important;
+  font-size: 100%;
+  text-align: center;
+  margin-left: 10%;
+  margin-right: 10%
+ }
 
 a:link, a:visited {
   background-color: #15314d;
   color: white;
-  font-size: 28px;
+  font-size: 125%;
   padding: 1% 2%;
   text-align: center;
   text-decoration: none;
@@ -88,6 +103,10 @@ a:link, a:visited {
   margin: 3%;
   display: inline-block;
   border: 4px solid #0b1a29;
+}
+	
+hr.dashed {
+  border-top: 3px dashed #bbb;
 }
 
 a:hover, a:active {
@@ -104,38 +123,41 @@ a:hover, a:active {
 </div>
   
   <div class="content_box">
-  <div class="cent_content">
+  <div class="cent_content_header">
   <h1>Using the calculator:</h1>
 </div>	
 	
   <div class="cent_content">
-  <img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/calc_trouble_pics/normal_calc.gif" class="pic" alt="normal" style="margin-left: 20px; margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/calc_trouble_pics/normal_calc.gif" class="pic" alt="normal" width="80%" height="auto"/>
   <p>When you open the page it should look like this. You only need to look at the top part. Hide the nasty and confusing bottom screen by dragging the top screen down, as so. Fill out the form and hit submit at the bottom.</p>
 </div>
  
   <hr class="dashed">
 	  
-  <div class="cent_content">
+  <div class="cent_content_header">
   <h1>Checking your results:</h1>
 </div>
 	
   <div class="cent_content">
-  <img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/calc_trouble_pics/checking%20the%20table.png" class="pic" alt="check" width=50% height=50% style="margin-left: 20px; margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/calc_trouble_pics/checking%20the%20table.png" class="pic" alt="check" width="80%" height="auto"/>
   <p>After hitting submit, the terminal should give you a number, in this case it's -2. Check this number against the table below the terminal. We can see that -2 is a very bad score, meaning the article I'm checking is very poor quality!</p> 
 </div>
   
 <hr class="dashed">
 	
-  <div class="cent_content">
+  <div class="cent_content_header">
   <h1>My screen doesn't look like that!</h1>
 </div>
 	
   <div class="cent_content">
-  <img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/calc_trouble_pics/not%20running.png" class="pic" alt="not_running"  width=50% height=50% style="margin-bottom: 20px"/>
+  <img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/calc_trouble_pics/not%20running.png" class="pic" alt="not_running" width="80%" height="auto"/>
   <p>If this doesn't solve the problem, you are likely experiencing a server issue. Unforunately, I don't run the server the calculator runs on, so I cannot offer any solutions for this except trying again later.</p> 
 </div>
-  <hr class="dashed">
+  <hr class="dashed"></div>
+  <div class="buffer">
+  <p>.</p>
 </div>
+	  
 </div>
   
 </body>
