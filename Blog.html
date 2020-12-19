@@ -106,51 +106,45 @@ body {
  .header a:hover, .header a:active {
   background-color: #3e7bb8 !important;}    
 
- .sub_header a:link, .sub_header a:visited {
-  background-color: #3e7bb8 !important;
-  color: #15314d;
-  font-size: 100%;
-  padding: 1% 2%;
-  text-align: center;
-  text-decoration: none;
-  border-radius: 20px;
-  margin: 3%;
-  display: inline-block;
-  border: 4px solid #0b1a29;
+ .dropbtn {
+  background-color: #3e7bb8;
+  color: white;
+  padding: 2%;
+  font-size: 125%;
+  border: 1px solid #0b1a29;
 }
 
- .sub_header a:hover, .sub_header a:active {
-  background-color: white !important;}    
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 40%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #3e8e41;}   
 
 hr.dashed {
   border-top: 3px dashed #bbb;
 }
-
-.tooltip {
-  position: absolute;
-  display: table-caption;
-}
-
-.tooltip .tooltiptext {
-  visibility: hidden;
-  width: auto;
-  font-size: 50%;
-  background-color: black;
-  color: #fff;
-  text-align: center;
-  border-radius: 6px;
-  padding: 2px 2px;
-
-  /* Position the tooltip */
-  position: relative;
-  z-index: 1;
-}   
-      
-.tooltip:hover .tooltiptext {
-  visibility: visible;
-}     
-/* Header/Logo Title */
-  
+ 
 .sub_header {
   padding: 0px;
   text-align: center;
@@ -178,25 +172,19 @@ a:hover, a:active {
 </div>
   
   <div class="sub_header">
-    <div class="tooltip">
-    <span class="tooltiptext">a gallery of peer-reviewed shitposts from around the world</span>
-      <a href="/Blog_pages/Magnificent_Figs_Main.html">Magnificent Figures</a>       
-</div>    
         
-  <div class="tooltip">  
-  <span class="tooltiptext">studies you won't believe are real</span>      
-      <a href="/Blog_pages/Weird.html">Weird Studies</a> 
+    <div class="dropdown">
+    <button class="dropbtn">Dropdown</button>
+      <div class="dropdown-content">
+      <a href="/Blog_pages/Magnificent_Figs_Main.html">Magnificent Figures: a gallery of peer-reviewed shitposts from around the world</a>  
+      <a href="/Blog_pages/Weird.html">Weird Studies: experiments you won't believe are real</a> 
+      <a href="/Blog_pages/Ask_Sci.html">Ask a Science Girl™: I will use my Professional Training™ to assuage your curiosity</a>
+      <a href="/Blog_pages/Other.html">Other Stuff: Who knows?</a>      
+    </div>
+  </div>    
+   
 </div>      
   
-  <div class="tooltip">  
-  <span class="tooltiptext">I will use my Professional Training™ to assuage your curiosity</span>      
-      <a href="/Blog_pages/Ask_Sci.html">Ask a Science Girl™</a>
-</div>    
-
-  <div class="tooltip">  
-  <span class="tooltiptext">Who knows?</span>      
-      <a href="/Blog_pages/Other.html">Other Stuff</a>      
-</div>      
         
 </div>
     
