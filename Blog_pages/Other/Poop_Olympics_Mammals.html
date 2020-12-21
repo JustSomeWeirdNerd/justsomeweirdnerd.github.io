@@ -115,7 +115,21 @@ hr.dashed {
 /* Clear div */
 /* <div class="clear"></div> */
 .clear { clear:both; }
-  
+ 
+.under {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+
+.over {
+  position: absolute;
+  left: 40px;
+  top: 10px;
+  z-index: -1;
+}      
+      
 </style>
 </head>
 <body>
@@ -134,7 +148,11 @@ hr.dashed {
 
     <div class="content_box">
    
-    <img src="https://animaldiversity.org/collections/contributors/usfws/stellersealionmale/large.jpg" alt="Northern Sea Lion" style="width:10%; height:auto; border-radius: 50%; margin-left:2%; margin-right:2%; margin-top:2%; margin-bottom:2%;"> 
+    <img src="https://animaldiversity.org/collections/contributors/usfws/stellersealionmale/large.jpg" class="under"
+         alt="Northern Sea Lion" style="width:10%; height:auto; border-radius: 50%; margin-left:2%; margin-right:2%; margin-top:2%; margin-bottom:2%;"> 
+   
+    <img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/poop_olympics/gold_border.png" class="over"
+         alt="Northern Sea Lion" style="width:10%; height:auto; border-radius: 50%; margin-left:2%; margin-right:2%; margin-top:2%; margin-bottom:2%;"> 
           
       <div class="buffer">
        <p>.</p>
