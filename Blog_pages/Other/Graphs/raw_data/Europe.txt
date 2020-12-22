@@ -1,0 +1,30 @@
+order	species	feces_max_dim_cm	body_min_kg	body_max_kg	common_name
+INSECTIVORA	Erinaceus europaeus	3.5	0.8	1.2	Hedgehog
+LAGOMORPHA	Lepus capensis	1.75	4	5	Hare
+LAGOMORPHA	Oryctolagus cuniculus	1	1.5	2.5	domestic rabbit
+RODENTIA	Sciurus vulgaris	0.65	0.6	0.6	Tree squirrel
+RODENTIA	Castor fiber	3	13	35	European Beaver
+RODENTIA	Ondatra zibethicus	1.3	0.68	1.8	Muskrat
+RODENTIA	Arvicola amphibius	0.85	0.07	0.25	Water vole
+RODENTIA	Microtus arvalis	0.65	0.0275	0.0275	Vole
+RODENTIA	Lemmus lemmus	0.6	0.02	0.13	True Lemming
+RODENTIA	Rattus norvegicus	1.7	0.14	0.5	Brown Rat
+RODENTIA	Rattus rattus	1	0.07	0.3	Black Rat
+RODENTIA	Mus musculus	0.6	0.012	0.03	House mouse
+RODENTIA	Myocastor coypus	2.5	5	10	Coypu
+CARNIVORA	Vulpes vulpes	9	3	14	Red Fox
+CARNIVORA	Canis lupus	12.5	23.0	80	Wolf
+CARNIVORA	Ursus horribilis	6	130	270	Grizzly bear
+CARNIVORA	Martes martes	9	0.48	1.8	Pine Marten
+CARNIVORA	Mustela putorius	6.8	0.205	1.71	European Polecat
+CARNIVORA	Mustela nivalis	0.2	0.03	0.1	Least Weasel
+CARNIVORA	Felis catus	7	4.1	5.4	Domestic cat
+CARNIVORA	Lynx lynx	6	18	36	Lynx
+UNGULATA	Sus scrofa	7	66	272	Pig
+UNGULATA	Cervus elaphus	2.25	67	497	elk
+UNGULATA	Dama dama	1.25	30	80	Fallow deer
+UNGULATA	Capreolus capreolus	1.2	22	30	Roe deer
+UNGULATA	Alces alces	1.75	270	771	Moose
+UNGULATA	Rangifer tarandus	1.35	55	318	Caribou
+UNGULATA	Ovis aries	1	20	200	domestic sheep
+UNGULATA	Rupicapra rupicapra	1.5	30	50	Chamois

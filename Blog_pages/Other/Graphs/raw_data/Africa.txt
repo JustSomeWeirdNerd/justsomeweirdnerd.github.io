@@ -1,0 +1,84 @@
+order	species	feces_max_dim_cm	body_min_kg	body_max_kg	common_name
+LAGOMORPHA	Lepus saxatilis	1	1.5	4.5	Hare
+LAGOMORPHA	Lepus capensis	1	4	5	Cape Hare
+RODENTIA	Paraxerus cepapi	0.5	0.22285	0.22285	Tree Squirel
+RODENTIA	Xerus inauris	1.5	0.423	0.649	Ground squirel
+RODENTIA	Thryonomys swinderianus	2	3	9	Greater Cane-rat
+RODENTIA	Pedetes capensis	2	3	4	Springhare
+RODENTIA	Hystrix africaeaustralis	5	18	30	Porcupine
+INSETIVORA	Atelerix frontalis	1.5	0.150	0.555	Hedgehog
+PRIMATA	Galago moholi	5	0.142	0.255	Lesser Bushbaby
+CARNIVORA	Lycaon pictus	7.5	18	36	Wild dog
+CARNIVORA	Vulpes chama	9.5	2.6	2.6	Cape Fox
+CARNIVORA	Otocyon megalotis	3.4	3	5.3	Bat-eared Fox
+CARNIVORA	Canis mesomelas	7.4	5	10	Black-backed Jackal
+CARNIVORA	Canis adustus	9.6	7	12	Side-Stripped Jackal
+CARNIVORA	Ictonyx striatus	6.8	1.02	1.4	Striped Polecat
+CARNIVORA	Mellivora capensis	6.8	8	12	Honey Badger
+CARNIVORA	Aonyx capensis	8	10.6	21	Cape Clawless otter
+CARNIVORA	Hyaena brunnea	5	34.2	72.6	Brown Hyaena
+CARNIVORA	Proteles cristata	11.2	8	14	Aardwolf
+CARNIVORA	Genetta tigrina	7.5	0.84	3.20	Large–spotted Genet
+CARNIVORA	Genetta genetta	5.5	1	3	small-spotted Genet
+CARNIVORA	Suricata suricatta	5	0.720	0.731	Suricate
+CARNIVORA	Rhynchogale melleri	8	2.2	2.2	Meller’s Mongoose
+CARNIVORA	Cynictis penicillata	4.4	0.6	0.6	Yellow Mongoose
+CARNIVORA	Galerella pulverulenta	4	0.49	1.25	Small Grey Mongoose
+CARNIVORA	Ichneumia albicauda	7	3.4	3.6	White-tailed Mongoose
+CARNIVORA	Atilax paludinosus	3.2	2.5	4.1	Water Mongoose
+CARNIVORA	Herpestes ichneumon	9	1.7	4	Large Grey Mongoose
+CARNIVORA	Galerella sanguinea	7	0.49	1.25	Slender Mongoose
+CARNIVORA	Mungos Mungo	3.2	1	1.5	Banded Mongoose
+CARNIVORA	Helogale parvula	3.6	0.2748	0.2748	Dwarf Mongoose
+CARNIVORA	Panthera leo	15	126	272	Lion
+CARNIVORA	Caracal caracal	5.5	8	19	Caracal
+CARNIVORA	Leptailurus serval	12	9	18	Serval
+CARNIVORA	Felis silvestris	3.5	3.5	5	African Wild cat
+CARNIVORA	Felis nigripes	4.7	1	2.75	Small spotted cat 
+CARNIVORA	Dendrohyrax arboreus	6.6	2.27	2.27	Tree Dassie
+UNGULATA	Orycteropus afer	4	40	82	Aardvark
+UNGULATA	Procavia capensis	1	3.8	3.8	Rocky Hyrax
+UNGULATA	Heterohyrax brucei	1.5	0.246	0.246	Yellow-spotted Rock Dassie
+UNGULATA	Loxodonta africana	17.5	2000	6100	Elephant
+UNGULATA	Equus burchellii	6	175	385	Burchell’s Zebra
+UNGULATA	Equus zebra	5	240	372	Mountain Zebra
+UNGULATA	Ceratotherium simum	12.5	1000	3600	White Rhino
+UNGULATA	Hippopotamus amphibius	10	1300	4500	Hippo
+UNGULATA	Potamochoerus porcus	11	46	130	Bushpig
+UNGULATA	Phacochoerus aethiopicus	5	45	130	Desert Warthog
+UNGULATA	Giraffa camelopardalis	2.5	1180	1930	Giraffe
+UNGULATA	Syncerus caffer	15	300	835	Buffalo
+UNGULATA	Madoqua kirkii	0.75	3	6	Damara Dik-dik
+UNGULATA	Ourebia ourebi	0.75	12	22	Oribi
+UNGULATA	Neotragus moschatus	0.8	4	6	Suni
+UNGULATA	Raphicerus melanotis	0.7	8	23	Grysbok
+UNGULATA	Raphicerus sharpei	0.5	7	16	Sharpe’s Grysbok
+UNGULATA	Oreotragus oreotragus	1.3	8	18	Klipspringer
+UNGULATA	Philantomba monticola	0.5	4	6	Blue Druiker
+UNGULATA	Cephalophus natalensis	1.5	10	10	Red Druiker
+UNGULATA	Sylvicapra grimmia	0.6	12	25	Common Druiker
+UNGULATA	Raphicerus campestris	3	7	16	Steenbok
+UNGULATA	Damaliscus pygargus	1.3	55	80	Blesbok
+UNGULATA	Damaliscus lunatus	2.2	90	147	Topi
+UNGULATA	Redunca arundinum	1.7	39	80	Reedbuck
+UNGULATA	Redunca fulvorufula	1	30	30	Mountain Reedbuck
+UNGULATA	Antidorcas marsupialis	1.3	33	46	Springbok
+UNGULATA	Aepyceros melampus	1.5	45	60	Impala
+UNGULATA	Connochaetes taurinus	2	118	270	Blue Wildbeest
+UNGULATA	Connochaetes gnou	1.5	110	157	Black Wildebeest
+UNGULATA	Gazella rufifrons	1	21	21	Thomson’s Gazelle
+UNGULATA	Gazella granti	1	45	65	Grant’s Gazelle
+UNGULATA	Oryx gazella	1.7	180	240	Gemsbok
+UNGULATA	Alcelaphus buselaphus	0.8	75	200	Red Hartebeest
+UNGULATA	Hippotragus niger	1.5	220	238	Sable Antelope
+UNGULATA	Hippotragus aquinus	2.7	225	300	Roan Antelope
+UNGULATA	Kobus vardonii	1.1	60	92	Puku
+UNGULATA	Kobus leche	1.6	61.6	128	Red Lechwe
+UNGULATA	Tragelaphus scriptus	2.75	25	80	Bushbuck
+UNGULATA	Tragelaphus angasii	1.5	55	126	Nyala
+UNGULATA	Tragelaphus spekii	2.5	50	125	Sitatunga
+UNGULATA	Tragelaphus strepsiceros	1.7	120	315	Kudu
+UNGULATA	Tragelaphus imberbis	1.1	60	105	Lesser Kudu
+UNGULATA	Tragelaphus eurycerus	1.4	210	405	Bongo
+UNGULATA	Taurotragus oryx	2.8	300	1000	Eland
+UNGULATA	Ammotragus lervia	1.6	65	145	Barbary sheep

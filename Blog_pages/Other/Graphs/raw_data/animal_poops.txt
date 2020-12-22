@@ -1,0 +1,226 @@
+#Poop length: http://www.scielo.br/pdf/mioc/v98s1/v98s1a14.pdf
+#Masses: https://animaldiversity.org/ the University of Michigan's Animal Diversity Web & the Encyclopedia of Life
+#Africa:
+order	species	feces_max_dim_cm	body_min_kg	body_max_kg	common_name
+LAGOMORPHA	Lepus saxatilis	1	1.5	4.5	Hare
+LAGOMORPHA	Lepus capensis	1	4	5	Cape Hare
+RODENTIA	Paraxerus cepapi	0.5	0.22285	0.22285	Tree Squirel
+RODENTIA	Xerus inauris	1.5	0.423	0.649	Ground squirel
+RODENTIA	Thryonomys swinderianus	2	3	9	Greater Cane-rat
+RODENTIA	Pedetes capensis	2	3	4	Springhare
+RODENTIA	Hystrix africaeaustralis	5	18	30	Porcupine
+INSETIVORA	Atelerix frontalis	1.5	0.150	0.555	Hedgehog
+PRIMATA	Galago moholi	5	0.142	0.255	Lesser Bushbaby
+CARNIVORA	Lycaon pictus	7.5	18	36	Wild dog
+CARNIVORA	Vulpes chama	9.5	2.6	2.6	Cape Fox
+CARNIVORA	Otocyon megalotis	3.4	3	5.3	Bat-eared Fox
+CARNIVORA	Canis mesomelas	7.4	5	10	Black-backed Jackal
+CARNIVORA	Canis adustus	9.6	7	12	Side-Stripped Jackal
+CARNIVORA	Ictonyx striatus	6.8	1.02	1.4	Striped Polecat
+CARNIVORA	Mellivora capensis	6.8	8	12	Honey Badger
+CARNIVORA	Aonyx capensis	8	10.6	21	Cape Clawless otter
+CARNIVORA	Hyaena brunnea	5	34.2	72.6	Brown Hyaena
+CARNIVORA	Proteles cristata	11.2	8	14	Aardwolf
+CARNIVORA	Genetta tigrina	7.5	0.84	3.20	Large–spotted Genet
+CARNIVORA	Genetta genetta	5.5	1	3	small-spotted Genet
+CARNIVORA	Suricata suricatta	5	0.720	0.731	Suricate
+CARNIVORA	Rhynchogale melleri	8	2.2	2.2	Meller’s Mongoose
+CARNIVORA	Cynictis penicillata	4.4	0.6	0.6	Yellow Mongoose
+CARNIVORA	Galerella pulverulenta	4	0.49	1.25	Small Grey Mongoose
+CARNIVORA	Ichneumia albicauda	7	3.4	3.6	White-tailed Mongoose
+CARNIVORA	Atilax paludinosus	3.2	2.5	4.1	Water Mongoose
+CARNIVORA	Herpestes ichneumon	9	1.7	4	Large Grey Mongoose
+CARNIVORA	Galerella sanguinea	7	0.49	1.25	Slender Mongoose
+CARNIVORA	Mungos Mungo	3.2	1	1.5	Banded Mongoose
+CARNIVORA	Helogale parvula	3.6	0.2748	0.2748	Dwarf Mongoose
+CARNIVORA	Panthera leo	15	126	272	Lion
+CARNIVORA	Caracal caracal	5.5	8	19	Caracal
+CARNIVORA	Leptailurus serval	12	9	18	Serval
+CARNIVORA	Felis silvestris	3.5	3.5	5	African Wild cat
+CARNIVORA	Felis nigripes	4.7	1	2.75	Small spotted cat 
+CARNIVORA	Dendrohyrax arboreus	6.6	2.27	2.27	Tree Dassie
+UNGULATA	Orycteropus afer	4	40	82	Aardvark
+UNGULATA	Procavia capensis	1	3.8	3.8	Rocky Hyrax
+UNGULATA	Heterohyrax brucei	1.5	0.246	0.246	Yellow-spotted Rock Dassie
+UNGULATA	Loxodonta africana	17.5	2000	6100	Elephant
+UNGULATA	Equus burchellii	6	175	385	Burchell’s Zebra
+UNGULATA	Equus zebra	5	240	372	Mountain Zebra
+UNGULATA	Ceratotherium simum	12.5	1000	3600	White Rhino
+UNGULATA	Hippopotamus amphibius	10	1300	4500	Hippo
+UNGULATA	Potamochoerus porcus	11	46	130	Bushpig
+UNGULATA	Phacochoerus aethiopicus	5	45	130	Desert Warthog
+UNGULATA	Giraffa camelopardalis	2.5	1180	1930	Giraffe
+UNGULATA	Syncerus caffer	15	300	835	Buffalo
+UNGULATA	Madoqua kirkii	0.75	3	6	Damara Dik-dik
+UNGULATA	Ourebia ourebi	0.75	12	22	Oribi
+UNGULATA	Neotragus moschatus	0.8	4	6	Suni
+UNGULATA	Raphicerus melanotis	0.7	8	23	Grysbok
+UNGULATA	Raphicerus sharpei	0.5	7	16	Sharpe’s Grysbok
+UNGULATA	Oreotragus oreotragus	1.3	8	18	Klipspringer
+UNGULATA	Philantomba monticola	0.5	4	6	Blue Druiker
+UNGULATA	Cephalophus natalensis	1.5	10	10	Red Druiker
+UNGULATA	Sylvicapra grimmia	0.6	12	25	Common Druiker
+UNGULATA	Raphicerus campestris	3	7	16	Steenbok
+UNGULATA	Damaliscus pygargus	1.3	55	80	Blesbok
+UNGULATA	Damaliscus lunatus	2.2	90	147	Topi
+UNGULATA	Redunca arundinum	1.7	39	80	Reedbuck
+UNGULATA	Redunca fulvorufula	1	30	30	Mountain Reedbuck
+UNGULATA	Antidorcas marsupialis	1.3	33	46	Springbok
+UNGULATA	Aepyceros melampus	1.5	45	60	Impala
+UNGULATA	Connochaetes taurinus	2	118	270	Blue Wildbeest
+UNGULATA	Connochaetes gnou	1.5	110	157	Black Wildebeest
+UNGULATA	Gazella rufifrons	1	21	21	Thomson’s Gazelle
+UNGULATA	Gazella granti	1	45	65	Grant’s Gazelle
+UNGULATA	Oryx gazella	1.7	180	240	Gemsbok
+UNGULATA	Alcelaphus buselaphus	0.8	75	200	Red Hartebeest
+UNGULATA	Hippotragus niger	1.5	220	238	Sable Antelope
+UNGULATA	Hippotragus aquinus	2.7	225	300	Roan Antelope
+UNGULATA	Kobus vardonii	1.1	60	92	Puku
+UNGULATA	Kobus leche	1.6	61.6	128	Red Lechwe
+UNGULATA	Tragelaphus scriptus	2.75	25	80	Bushbuck
+UNGULATA	Tragelaphus angasii	1.5	Walker	1996	55	126	Nyala
+UNGULATA	Tragelaphus spekii	2.5	50	125	Sitatunga
+UNGULATA	Tragelaphus strepsiceros	1.7	120	315	Kudu
+UNGULATA	Tragelaphus imberbis	1.1	60	105	Lesser Kudu
+UNGULATA	Tragelaphus eurycerus	1.4	210	405	Bongo
+UNGULATA	Taurotragus oryx	2.8	300	1000	Eland
+UNGULATA	Ammotragus lervia	1.6	65	145	Barbary sheep
+#
+#North America:
+MARSUPIALIA	Didelphis marsupialis	4.2	1.53	1.53	Opossum
+XENARTHRA	Dasypus novemcinctus	3.5	3.6	7.7	Nine-banded armadillo
+INSETIVORA	Sorex arcticus	0.4	0.0053	0.0135	Artic Shrew
+INSETIVORA	Blarina brevicauda	1.2	0.018	0.03	shorttail Shrew
+INSETIVORA	Cryptotis parva	0.6	0.003	0.006	Pygmy Shrew
+LAGOMORPHA	Lepus californicus	1.1	1.3	3.1	Blacktail Jackrabbit
+LAGOMORPHA	Lepus townsendii	1.8	3	4	Whitetail Jackrabbit
+LAGOMORPHA	Lepus americanus	1-1.3	1.43	1.55	Snowshoe Hare
+LAGOMORPHA	Lepus arcticus	1.6	3	5	Artic Hare
+LAGOMORPHA	Lepus europaeus	1.7	3	5	European Hare
+LAGOMORPHA	Sylvilagus bachmani	0.7	0.48	0.92	Brush Rabbit
+LAGOMORPHA	Sylvilagus nuttallii	0.8	0.7	1.2	Mountain Cottontail
+LAGOMORPHA	Sylvilagus audubonii	0.8	0.9	0.9	Desert Cottontail
+LAGOMORPHA	Sylvilagus floridanus	0.8	0.8	1.53	Cottontail
+LAGOMORPHA	Brachylagus idahoensis	0.8	0.4	0.46	Pygmy Rabbit
+LAGOMORPHA	Ochotona princeps	4	0.121	0.176	Pika
+RODENTIA	Marmota flaviventris	3.4	1.59	5.22	Yellow-belled Marmot
+RODENTIA	Cynomys spp.	0.75	0.8	1.1	Prairie Dog
+RODENTIA	Spermophilus variegatus	1.5	0.6	0.85	larger Rock Squirrel
+RODENTIA	Spermophilus armatus	1.3	0.284	0.425	Uinta Ground Squirrel
+RODENTIA	Tamias striatus	0.6	0.066	0.115	Eastern Chipmunk
+RODENTIA	Tamias minimus	0.6	0.042	0.053	Least Chipmunk
+RODENTIA	Tamias speciosus	0.7	0.0506	0.0695	Lodgepole Chipmunk
+RODENTIA	Tamias merriami	0.85	0.0718	0.0778	Merriam Chipmunk
+RODENTIA	Sciurus carolinensis	1	0.338	0.750	Eastern Gray Squirrel
+RODENTIA	Sciurus alberti	0.6	0.54	0.971	Tassel-eared Squirrel
+RODENTIA	Sciurus niger	1.1	0.696	1.233	Fox Squirrel
+RODENTIA	Sciurus griseus	1.15	0.35	0.95	Western Gray Squirrel
+RODENTIA	Tamiasciurus douglasii	0.8	0.141	0.312	Pine Squirrel
+RODENTIA	Tamiasciurus hudsonicus	1.5	0.1973	0.2822	Red Squirrel
+RODENTIA	Glaucomys sabrinus	0.8	0.075	0.14	Northern Flying Squirrel
+RODENTIA	Spermophilus beecheyi	1.2	0.28	0.738	California Ground Squirrel
+RODENTIA	Spermophilus lateralis	1.3	0.12	0.394	Golden-mantled Ground Squirrel
+RODENTIA	Thomomys talpoides	3.4	0.06	0.16	Northern Pocket Gophers
+RODENTIA	Perognatus parvus	0.2	0.0201	0.0201	Pocket mouse
+RODENTIA	Castor canadensis	1.5	13	32	Beaver
+RODENTIA	Ondatra zibethicus	1.15	0.68	1.8	Muskrat
+RODENTIA	Erithizon dorsatum	4.1	5	14	North American Porcupine
+RODENTIA	Aplodontia rufa	1.5	1.125	1.125	Aplodontia
+RODENTIA	Dasyprocta	4	2.2	3.5	Agouti
+RODENTIA	Cuniculus paca	3	7	12	Paca
+RODENTIA	Zapus	0.9	0.018	0.021	Jumping mouse
+RODENTIA	Neotoma fuscipes	1.4	0.230	0.3	Dusky-footed Woodrat
+RODENTIA	Neotoma cinerea	0.3	0.3355	0.3355	Bushytail Woodrat
+RODENTIA	Neotoma lepida	1.2	0.122	0.35	Desert Woodrat
+RODENTIA	Peromyscus	1.7	0.014	0.071	Deer Mouse
+RODENTIA	Onychomys	1	0.022	0.03	Grasshopper Mouse
+RODENTIA	Reithrodontomys	0.4	0.0082	0.023	Harvest Mouse
+RODENTIA	Oryzomys	1.4	0.033	0.069	Rice Rat
+RODENTIA	Sigmodon	0.8	0.056	0.2	Cotton Rat
+RODENTIA	Micritus miuru	0.6	0.041	0.041	Singing Vole
+RODENTIA	Microtus richardsoni	0.7	0.051	0.051	Richardson Vole
+RODENTIA	Microtus montanus	0.35	0.0373	0.085	Mountain Vole
+RODENTIA	Dicrostonyx groenlandicus	0.5	0.03	0.112	Collared lemming
+CARNIVORA	Martes americana	5.5	0.28	1.3	Pine Marten
+CARNIVORA	Martes pennanti	1.6	2	5	Fisher
+CARNIVORA	Mustela frenata	2.8	0.08	0.45	Long-tailed Weasel
+CARNIVORA	Mustela erminea	0.5	0.025	0.116	Shorttail weasel
+CARNIVORA	Mustela vison	1	0.7	1.6	Mink
+CARNIVORA	Gulo gulo	13	9	30	Wolverine
+CARNIVORA	Lontra canadensis	6.25	5	14	River Otter
+CARNIVORA	Enhydra lutris	8.5	14	45	Sea Otter
+CARNIVORA	Mephitis mephitis	3.7	0.7	6.3	Striped Skunk
+CARNIVORA	Spilogale putorius	0.6	0.2	1	Spotted Skunk
+CARNIVORA	Taxidea taxus	4.15	4	12	Badger
+CARNIVORA	Procyon lotor	4	1.8	10.4	Raccoon
+CARNIVORA	Nasua narica	6.6	3	5	Coati
+CARNIVORA	Bassariscus astutus	7.6	0.824	1.338	Cacomistle
+CARNIVORA	Ursus americanus	9.5	39.0	409.0	Black Bear
+CARNIVORA	Ursus horribilis	5.7	130	270	Grizzly Bear
+CARNIVORA	Canis lupus	16	23	80	Gray Wolf
+CARNIVORA	Canis latrans	10.6	7	21	Coyote
+CARNIVORA	Vulpes vulpes	5.8	3	14	Red Fox
+CARNIVORA	Vulpes macrotis	5	1.6	2.7	San Joaquin Kit Fox
+CARNIVORA	Urocyon cinereoargenteus	6.4	2	9	Gray Fox
+CARNIVORA	Alopex lagopus	6.4	5.2	5.2	Arctic Fox
+CARNIVORA	Lynx rufus	8.85	4	15	Bobcat
+CARNIVORA	Puma concolor	15.2	29	120	Mountain Lion
+CARNIVORA	Panthera onca	10.8	68	136	Jaguar
+CARNIVORA	Leopardus pardalis	12.7	8.5	16	Ocelot
+PINNIPEDIA	Eumetopias jubatus	5.65	350	1,120	Northern Sea lion
+UNGULATA	Ovis canadensis	8	53	127	Bighorn Sheep
+UNGULATA	Oreamnos americanus	4.3	56.8	81.8	Mountain Goat Cakes:
+UNGULATA	Bison bison	30.5	318	900	Bison or Buffalo
+UNGULATA	Ovibos moschatus	1	180	400	Muskox
+UNGULATA	Antilocapra americana	4	47	70	Pronghorn Antelope
+UNGULATA	Odocoileus hemionus	6.7	43	150	Mule Deer
+UNGULATA	Odocoileus virginianus	4.8	57.0	137.0	White-tailed Deer
+UNGULATA	Cervus elaphus	11	67	497	Canadian Elk
+UNGULATA	Alces alces	2.7	270	771	Moose
+UNGULATA	Rangifer tarandus	5.5	55	318	Caribou
+UNGULATA	Pecari tajacu	1.4	15	25	Peccary
+#
+#Europe:
+INSECTIVORA	Erinaceus europaeus	3.5	0.8	1.2	Hedgehog
+LAGOMORPHA	Lepus capensis	1.75	4	5	Hare
+LAGOMORPHA	Oryctolagus cuniculus	1	1.5	2.5	domestic rabbit
+RODENTIA	Sciurus vulgaris	0.65	0.6	0.6	Tree squirrel
+RODENTIA	Castor fiber	3	13	35	European Beaver
+RODENTIA	Ondatra zibethicus	1.3	0.68	1.8	Muskrat
+RODENTIA	Arvicola amphibius	0.85	0.07	0.25	Water vole
+RODENTIA	Microtus arvalis	0.65	0.0275	0.0275	Vole
+RODENTIA	Lemmus lemmus	0.6	0.02	0.13	True Lemming
+RODENTIA	Rattus norvegicus	1.7	0.14	0.5	Brown Rat
+RODENTIA	Rattus rattus	1	0.07	0.3	Black Rat
+RODENTIA	Mus musculus	0.6	0.012	0.03	House mouse
+RODENTIA	Myocastor coypus	2.5	5	10	Coypu
+CARNIVORA	Vulpes vulpes	9	3	14	Red Fox
+CARNIVORA	Canis lupus	12.5	23.0	80	Wolf
+CARNIVORA	Ursus horribilis	6	130	270	Grizzly bear
+CARNIVORA	Martes martes	9	0.48	1.8	Pine Marten
+CARNIVORA	Mustela putorius	6.8	0.205	1.71	European Polecat
+CARNIVORA	Mustela nivalis	0.2	0.03	0.1	Least Weasel
+CARNIVORA	Felis catus	7	4.1	5.4	Domestic cat
+CARNIVORA	Lynx lynx	6	18	36	Lynx
+UNGULATA	Sus scrofa	7	66	272	Pig
+UNGULATA	Cervus elaphus	2.25	67	497	elk
+UNGULATA	Dama dama	1.25		Fallow deer
+UNGULATA	Capreolus capreolus	1.2	22	30	Roe deer
+UNGULATA	Alces alces	1.75	270	771	Moose
+UNGULATA	Rangifer tarandus	1.35	55	318	Caribou
+UNGULATA	Ovis aries	1	20	200	domestic sheep
+UNGULATA	Rupicapra rupicapra	1.5	30	50	Chamois
+#
+#Brazil:
+XENARTHRA	Dasypus novemcinctus	2.4	3.6	7.7	Nine-banded Armadillo
+XENARTHRA	Tamandua tetradactyla	4.95	4.5	4.5	Southern Tamandua
+RODENTIA	Kerodon rupestris	1.3	0.9	1	Rock Cavy
+PRIMATA	Alouatta caraya	2.6	4	10	Black Howler Monkey
+CARNIVORA	Cerdocyon thous	6.15	5	8	Crab-eating Fox
+CARNIVORA	Panthera onca	6.9	68	136	Jaguar
+CARNIVORA	Puma concolor	4.9	29	120	Cougar
+CARNIVORA	Leopardus tigrinus	3.25	1.5	3	Oncilla
+UNGULATA	Mazama gouazoubira	3	8	25	Brocket Deer
+UNGULATA	Mazama americana	0.85	20	55	Red Brocket deer
+UNGULATA	Pecari tajacu	1.65	15	25	Collared Peccary
+UNGULATA	Tayassu pecari	1.6	25	40	White-lipped Peccary
