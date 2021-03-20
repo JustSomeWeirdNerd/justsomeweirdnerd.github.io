@@ -103,6 +103,27 @@ body {
   border: 4px solid #0b1a29;
 }
 
+.pagination {
+  display: inline-block;
+}
+
+.pagination a {
+  color: black;
+  text-decoration: none;
+  font-size: 2vw;
+  padding: 0.5vw 0.5vw;
+}
+
+.pagination a.active {
+  background-color: #3e7bb8;
+  color: white;
+  border-radius: 5px;
+}
+
+
+.pagination a:hover:not(.active) {background-color: #ddd;
+border-radius: 5px;}
+
  .header a:hover, .header a:active {
   background-color: #3e7bb8 !important;}    
 
@@ -170,6 +191,7 @@ a.bordered:hover img {
   <div class="content_box_narrow">
   <div class="header">
   <h1>Just Some Weird Nerd's Blog</h1>
+   <h3>Page 2</h3>
     <a href="/About.html">About</a>
     <a href="/Contact.html">Contact</a>
     <a href="/Tools.html">Tools</a>
@@ -198,60 +220,6 @@ a.bordered:hover img {
 
         
     <hr class="dashed">      
-  <div class="content">   
-  <a href="/Blog_pages/Other/Dodder.html" class="bordered"><img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/Icons_and_Buttons/162314736_157159399500342_5194704760176025902_n.png" alt="Mag_Figs" width="20%" height="auto" style="float:left; margin-left:2%;  margin-right:2%";/></a>  
-  <p><small>March 20th, 2021</small></p>
-  <p><strong>The Alien Spaghetti Plant that Can Steal DNA</strong> This title isn't clickbait; life is just awesomely strange.</p>
-  <div style="clear:both;"></div>
-</div>       
-        
-  <hr class="dashed">      
-  <div class="content">   
-  <a href="/Blog_pages/Magnificent_Figs/Urination_times.html" class="bordered"><img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/Magnificent_Figs/Yang_et_al_2014_fig1.jpg" alt="Mag_Figs" width="14%" height="auto" style="float:left; margin-left:2%;  margin-right:8%";/></a>  
-  <p><small>March 19th, 2021</small></p>
-  <p><strong>Magnificent Figures vol. 2:</strong> I'm only looking at animal penises for science, mom.</p>
-  <div style="clear:both;"></div>
-</div>       
-        
-      
-  <hr class="dashed">      
-  <div class="content">   
-  <a href="/Blog_pages/Other/Farm_Fox.html" class="bordered"><img src="https://media.springernature.com/full/springer-static/image/art%3A10.1186%2Fs12052-018-0090-x/MediaObjects/12052_2018_90_Fig3_HTML.jpg?as=webp" alt="Mag_Figs" width="14%" height="auto" style="float:left; margin-left:2%;  margin-right:8%";/></a>  
-  <p><small>March 14th, 2021</small></p>
-  <p><strong>What Happened to Those Domesticated Foxes?</strong> You might remember those Russian scientists who made the weirdly dog-like foxes, but what you might not remember is
-        <i>why</i>. It's a story that goes all the way back to Darwin, and one that's still being told today.</p>
-  <div style="clear:both;"></div>
-</div>       
-
-  
-  <hr class="dashed">      
-  <div class="cent_content">   
-  <a href="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/help.png" target="_blank" class="bordered"><img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/help.png" alt="help" width="90%" height="auto" style="float:left; margin-left:5%;  margin-right:5%";/></a>  
-  <p><small>March 10th, 2021</small></p>
-  <p><small><strong>help</strong></small></p>
-  <div style="clear:both;"></div>
-</div>   
-    
-  <hr class="dashed">      
-  <div class="content">   
-  <a href="/Blog_pages/Other/Coca_History.html" class="bordered"><img src="https://collectionapi.metmuseum.org/api/collection/v1/iiif/314179/661907/main-image" alt="Mag_Figs" width="14%" height="auto" style="float:left; margin-left:2%;  margin-right:8%";/></a>  
-  <p><small>March 5th, 2021</small></p>
-  <p><strong>How The Science of Cocaine Can Teach Us About Human History</strong> Science and the arts intersect more often than you might think- and in unexpected ways! Come learn 
-        about how the science of cocaine created one of the most criminally unknown theories in human history. Image: Capulí style figure of a man chewing coca, 9th–15th century, from the <a href="https://www.metmuseum.org/art/collection/search/314179">Met</a>.</p>
-  <div style="clear:both;"></div>
-</div>       
-        
-        
-   <hr class="dashed">
-        
-   <div class="content">   
-  <a href="/Blog_pages/Other/Chapter1.html" class="bordered"><img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Blog_pages/Other/Book_IMG/Maggja.png" alt="Mag_Figs" width="14%" height="auto" style="float:left; margin-left:2%;  margin-right:8%";/></a>  
-  <p><small>March 2nd, 2021</small></p>
-  <p><strong>The Loyal Guard</strong> Some non-scientific writing to shake things up! The first chapter of a fantasy tale I'm working on. Any feedback from you folks would be more than welcome.</p>
-  <div style="clear:both;"></div>
-</div>        
-        
-  <hr class="dashed">
         
    <div class="content">   
   <a href="/Blog_pages/Other/Lying_for_no_reason.html" class="bordered"><img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/Other/Jed_intro.png" alt="Mag_Figs" width="14%" height="auto" style="float:left; margin-left:2%;  margin-right:8%";/></a>  
@@ -309,10 +277,19 @@ Why did I do this? No clue! Did I spend way to much time pulling data out of old
 
   <hr class="dashed">    
 
+  <div class="cent_content">   
+<div class="pagination">
+  <a href="/Blog.html">&laquo;</a>
+  <a href="/Blog.html">1</a>
+  <a class="active" href="/Blog_pages/Homepage/Page2">2</a>
+  <!-- <a href="/Blog_pages/Homepage/Page2">&raquo;</a>-->
+</div>
+</div>
+
    <div class="buffer">
        <p>.</p>
     </div> 
-        
+   
 </div>
 </div>
     
