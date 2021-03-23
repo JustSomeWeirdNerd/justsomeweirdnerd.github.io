@@ -2,11 +2,12 @@
 <html lang="en">
 <head>
 <title>Tools - Just Some Weird Nerd</title>
-<meta name="description" content="Science communication tools from the Just Some Weird Nerd blog. Featuring the Sci Comms Quality Calculator: test the reliability of any science article you find online!">
-<meta name="keywords" content="Sci Comms Quality Calculator,science communication quality,science article quality test,science writing reliability,just some weird nerd,science for laypeople">
+<meta name="description" content="Science communication tools from the Just Some Weird Nerd blog. Featuring the Sci Comms Quality Calculator and the Responsible Forager's Map of Canada">
+<meta name="keywords" content="Sci Comms Quality Calculator,science communication quality,science article quality test,science writing reliability,just some weird nerd,science for laypeople,foraging,canada,invasive species,map,forager,wild plants,edible,edible plants,recipes,plant ID">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="shortcut icon" type="image/x-icon" href="Images/favicon.ico">
+
 <style>
 /* Style the body */
 html {
@@ -14,7 +15,7 @@ html {
       margin: 0;
       padding: 0;
     }
-
+  
 body {
   font-family: Helvetica;
   margin: 0;
@@ -25,16 +26,17 @@ body {
   min-height: 100vh;
   overflow-x: hidden;
 }
-
+  
 /* Header/Logo Title */
 .header {
   padding: 5vw;
-  text-align: center;
   /*width: 100%;*/
   background-image: radial-gradient(circle, rgba(26,63,99,1) 31%, rgba(11,26,41,1) 100%) ;
   color: white;
   font-size: 2vw;
   margin-left: -14%;
+  /* -15 right = not enough */
+  /* 0% right = not enough */
   margin-right: -14%;
   text-align: center;
 }
@@ -42,10 +44,11 @@ body {
  .buffer{
    padding:20px;
    color:white;
-   font-size: 100%;}      
+   font-size: 100%;}
 
 .content_box{
   background: white;
+  font-family: Garamond !important;
   font-size: 1.25vw;
   width: 80vw;
   margin-left: 0%;
@@ -56,8 +59,6 @@ body {
   width: 80vw;
   background: white;
   height: 100%;
-  margin-left: 10%;
-  margin-right: 10%;
   margin-left: 10vw;
   margin-right: 10vw;
   margin-bottom: 0%;
@@ -67,64 +68,34 @@ body {
 /* Page Content */
 .content {
   padding:5px;
-  font-size: 1.25vw;
   font-family: Garamond !important;
+  font-size: 1.25vw;
   margin-left: 2%;
   margin-right: 2%;
- }
- 
- .cent_content_inline {
-  padding:0px;
-  font-size: 1.25vw;
-  font-family: Garamond !important;
-  text-align: center;
-  margin-left: 2%;
-  margin-right: 2%;
-  display:inline-block;
- }
- 
-  .cent_content {
-  padding:5px;
-  font-size: 1.25vw;
-  font-family: Garamond !important;
-  text-align: center;
-  margin-left: 10%;
-  margin-right: 10%;
  }
 
-  .cent_content_header {
-  padding:0px;
-  font-size: 1.25vw;
-  font-family: Helvetica !important;
+ .cent_content {
+  padding:5px;
+  font-family: Garamond !important;
+  font-size: 1.4vw;
   text-align: center;
   margin-left: 10%;
-  margin-right: 10%;
-  margin-top: 2%;
-  margin-bottom: 0%;
+  margin-right: 10%
  }
  
- table, tr, td {
-  border: 1px solid black;
-  margin: 0 auto;
-}
- 
-.contenthead {
+ .cent_content_header {
   padding:5px;
+  font-family: Helvetica !important;
+  font-size: 1.25vw;
   text-align: center;
+  margin-left: 10%;
+  margin-right: 10%
  }
-  
- label, select id {
-    display: block;
-}
-label {
-    margin-top: 20px;
-    margin-bottom: 2px;
-} 
-a:link, a:visited {
-  background-color: #15314d;
+
+ .header a:link, .header a:visited {
+  background-color: #15314d !important;
   color: white;
   font-size: 1.6vw;
-  font-family: Helvetica !important;
   padding: 1% 2%;
   text-align: center;
   text-decoration: none;
@@ -133,12 +104,51 @@ a:link, a:visited {
   display: inline-block;
   border: 4px solid #0b1a29;
 }
-a:hover, a:active {
-  background-color: #3e7bb8;    
+
+ .header a:hover, .header a:active {
+  background-color: #3e7bb8 !important;}    
+
+ a.bordered:hover img {
+   border: solid 2px #33d6ff;
+}      
+  
+   a.needs_border img {
+   border: solid 2px black;
+}    
+ 
+  a.needs_border:hover img {
+   border: solid 2px #33d6ff;
+}    
+ 
+ 
+.grid-bottom {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  background-color: white;
+  padding: 5%;
+}
+
+.grid-item {
+  background-color: white;
+  border: 1px solid black;
+  padding: 5%;
+  text-align: center;
+}  
+  
+  
+/* Dashed line */
+/* <hr class="dashed"> */
+hr.dashed {
+  border-top: 1px dashed #bbb;
+}
+
+/* Clear div */
+/* <div class="clear"></div> */
+.clear { clear:both; }
   
 </style>
- 
-<!-- Matomo -->
+      
+ <!-- Matomo -->
 <script type="text/javascript">
   var _paq = window._paq = window._paq || [];
   /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
@@ -152,7 +162,7 @@ a:hover, a:active {
     g.type='text/javascript'; g.async=true; g.src='//cdn.matomo.cloud/github.matomo.cloud/matomo.js'; s.parentNode.insertBefore(g,s);
   })();
 </script>
-<!-- End Matomo Code -->         
+<!-- End Matomo Code -->        
       
 </head>
 <body>
@@ -166,91 +176,32 @@ a:hover, a:active {
   <a href="/index.html">Home</a>
 </div>
   <div class="content_box">
-     <div class="contenthead">
-      <h1>How to Avoid Fake Science as a Layperson</h1>
-  </div> 
-  
-    <div class="content">
-    <p>For non-scientists, learning about science online can be rather daunting. What's real information? What's an exaggeration of a real fact, and what's simply made up nonsense? The internet is full of crap science: even on websites with reputable names or ones that seem fancy and expensive. We've all seen those ad-filled clickbait websites that talk about how chocolate cures cancer one day, then talk about how it causes cancer the next day. But there's a great wide spectrum of reliability between the latest research published on the cover of Nature and your Great Aunt's rambly blog about how 5G towers are mind-control devices. Where do you draw the line on that spectrum? And how do you even know where things fall on it?</p>
-    <p>A term you probably hear thrown around a lot when it comes to scientific writing is "peer review." But what is peer review, and why is it considered the "gold standard" of scientific writing? Well, science ultimately aims to learn things about the universe from a completely unbiased lens. Humans are biased by nature, though, and it's not always possible to be totally neutral. When scientists design experiments, we are supposed to do it in the way will limit as much of our human feelings and preconcieved notions as possible. However, sometimes we miss things.</p>  
-    <p>Before any research is considered true science, the research will be sent to three scientists in your field who don't know the author and have no conflict of interest with the research. They will read through what's been done: every method, every step, every statistical analysis. They will make sure it really is unbiased, and that the conclusions accurately match the data in the study. Only once all three scientists agree that the research is good, can it be published in a journal. In addition to this high level of scrutiny, peer reviewed publications are required to contain a description of every test the researchers did to produce their data, how they did it, and what the raw numerical results of each test were. 
-    In this way, every scientist who reads the paper can make up their own mind about whether or not it really is unbiased science. This is why they are the gold standard. However, peer reviewed publications are difficult for even veteran scientists to read. For the average person, it's like reading ancient Greek. So we have to rely on more digestible scientific writing that may or may not be an accurate representation of the truth... </p>
-  </div> 
-    
-    <div class="contenthead">
-    <h2><u>Presenting: Sci Comms Quality Calculator©</u></h2>
-  </div>
-  
-    <div class="cent_content">
-    <p>For your use, I've made a simple web tool that can help anyone identify the quality of a piece of non-peer reviewed scientific writing.</p>
-    <p><strong>Step 1:</strong> Before reading the article, scan it for immediate red flags. If you see <strong>neither</strong> at least one reference to a publication in 
-          a peer-reviewed journal <strong>nor</strong> at least one direct quote from a scientist 
-          (the scientist must be listed with their full credentials and their current place of employment so readers can find information about them an judge how 
-          credible they seem), <strong>DO NOT READ THE ARTICLE.</strong> Just don't. The information is wrong. Don't let it into you brain.</p>
-    <p><strong>Step 2:</strong> If the article has passed the cursory exam for validity, proceed with caution, and fill out the Sci Comms Quality Calculator© 
-          (a Just Some Weird Nerd exclusive production):</p>
-    <p><small><i>mobile users should switch to horizontal view to optimize calculator use</small></i></p>
-  </div>
- 
-    <div class="cent_content_inline" style="inline-block">
-      
-      
-      <table width="100%" border="0">
-        <tr>
-          <td width="85%"><p> <iframe frameborder="0" width="100%" height="800px" src="https://repl.it/@sciencehoe420/The-Calculator?lite=1&outputonly=1"></iframe></p></td>
-          <td> 
-             <table style="width:100%" class="center">
-              <tr>
-                <th>Calculator Score</th>
-                <th>Quality</th>
-              </tr>
-              <tr>
-                <td><strong>11+</strong></td>
-                <td><strong>Extremely Credible.</strong> Whatever you're reading, keep on reading it!</td>
-              </tr>
-              <tr>
-                <td><strong>7-10</strong></td>
-                <td><strong>Very Credible.</strong> There might be minor inconsistencies, but overall this article is very good!</td>
-              </tr>
-              <tr>
-                <td><strong>4-6</strong></td>
-                <td><strong>Credible.</strong> This article isn't perfect, but it's probably mostly correct. Regard it with an air of caution.</td>
-              </tr>
-              <tr>
-                <td><strong>2-3</strong></td>
-                <td><strong>Borderline.</strong> We're starting to enter the dangerzone. There may be some good information here, but you should be very skeptical while reading this article.</td>
-              </tr>
-              <tr>
-                <td><strong>1 or less</strong></td>
-                <td><strong>Run.</strong> Don't even read this because it's probably wrong.</td>
-              </tr>
-            </table>
-          </td>
-        </tr>
-      </table>
-  </div> 
- 
-    <div class="cent_content_header">
-    <a href="Tools_Pages/Calc_Troubleshooting.html">See the Troubleshooting Guide</a>  
-      
-    <h2>If you are curious (as you should be) about how and why this calculator works, see below:</h2>
-  </div>
-    
-    <div class="content">
-    <p>This calculator takes different aspects of scientific writing and assigns them a numerical value. If the article in question is in good form, it will have many points added and few points taken away. If it is in poor form, the result will be the inverse. These are the parameters:</p>
-    <p><strong>Source Reliability:</strong> Articles get points for the more peer-reviewed articles they cite. If they cite none at all, points are removed. Some articles that appear peer reviewed are not actually peer reviewed; these are called predatory journals. The second question asks you to check if the "peer reviewed" citations are actually peer-reviewed by checking if the journal is predatory or not. Predatory journals do not conduct peer review. They try to pass off fake science as real science exclusively to make a profit. Interviews with scientists are also reliable sources. The more scientists willing to speak on a topic, the more universally accepted it's likely to be. In addition, articles that include dissenting opinions from scientists are showing you science how it really is, a discussion, rather than trying to prove a point. Dissenting opinions make scientific articles more reliable.</p>
-    <p><strong>Author Scientific Literacy:</strong> Authors with a scientific background are expected to understand science and how to communicate it better than writers without them. Articles written by scientific authors get a small addition of points.</p>
-    <p><strong>Scientific Language:</strong> Take note of the language in the writing. Does it speak in absolutes and rely on anecdotes and feelings? Science is based on probabilities and research. Anecdotes are not science, and can lead to bias. A good science comunicator will never include them. So too, a scientist will never use certainty when they speak. We are only ever "very certain" that a scientific principle is true because it's impossible to prove a negative. Good scientific communicators should use this type of language too, so points will be removed from articles that do not write this way.</p>
-  </div>  
-        
-    <div class="buffer">
-    <p>.</p>
+   
+ <div class="grid-bottom">   
+         <div class="grid-item">
+  <div class="cent_content">   
+  <a href="/Tools_Pages/Canada_Invasive_Map.html" class="bordered"><img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/Icons_and_Buttons/foragers_map_button.png" alt="help" width="98%" height="auto" style="float:left; margin-left:1%;  margin-right:1%";/></a>  
+   <h1><strong>The Responsible Forager's Map of Canada (Beta)</strong></h1>
+  <p>Foraging is an awesome hobby, but eating certain plants is better for the environment than others. Ditch the rare and vulnerable species this season, and eat invasive plants instead.</p>
+  <div style="clear:both;"></div>
+</div> 
   </div>        
         
-</div>
-  <div class="cent_content">
-  <a href="https://predatoryjournals.com/journals/">List of Predatory Journals</a> <a href="Tools_Pages/Journal_Demo.html">How to find an article's Journal.</a> <a href="Tools_Pages/Calc_Troubleshooting.html">Calculator Troubleshooting Guide</a>
-</div>
+   
+  
+  <div class="grid-item">
+  <div class="cent_content">   
+  <a href="/Tools_Pages/Calculator.html" class="needs_border"><img src="https://raw.githubusercontent.com/JustSomeWeirdNerd/justsomeweirdnerd.github.io/main/Images/Icons_and_Buttons/Calculator_button.png" alt="Mag_Figs" width="100%" height="auto" style="float:left; margin-left:0%;  margin-right:0%;"/></a>  
+  <h1><strong>Sci Comms Quality Calculator</strong></h1>
+  <p>How do you know if a science article online is good or not? For the average person, it can be pretty hard to tell. This is a simple tool that can help you figure out
+        which articles are good, which are bad, and which are downright dangerous.</p>
+  <div style="clear:both;"></div>
+</div> 
+
+  </div>
+  
+        
+        
 </div> 
 </body>
 </html>
